@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: limits
-limits:
-  minimum: 9
-  maximum: 9999
