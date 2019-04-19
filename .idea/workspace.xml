@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4372eaf0-dfb7-4a14-b8e9-1e7079d08a77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/limits/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/limits/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+            <state relative-caret-position="204">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -73,6 +72,7 @@
         <option value="$PROJECT_DIR$/limits/src/main/java/com/yulikexuan/cloudlab/limits/api/config/LimitsConfiguration.java" />
         <option value="$PROJECT_DIR$/limits/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/limits/.gitignore" />
       </list>
     </option>
   </component>
@@ -133,6 +133,11 @@
             <path>
               <item name="cloudlab2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudlab2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudlab2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudlab2019" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudlab2019" type="b2602c69:ProjectViewProjectNode" />
@@ -228,12 +233,12 @@
       <updated>1555511273336</updated>
       <workItem from="1555511276338" duration="1611000" />
       <workItem from="1555588966318" duration="3833000" />
-      <workItem from="1555680044085" duration="2975000" />
+      <workItem from="1555680044085" duration="3405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8419000" />
+    <option name="totallyTimeSpent" value="8849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -429,6 +434,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/limits/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
         </state>
       </provider>
     </entry>
