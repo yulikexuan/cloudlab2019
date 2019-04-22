@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component;
 @Setter
 @RefreshScope
 @Component
-// @ConfigurationProperties("limits")
 public class LimitsConfiguration {
 
     @Value("${limits.minimum}")
