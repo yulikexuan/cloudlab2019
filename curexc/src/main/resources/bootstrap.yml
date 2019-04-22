@@ -1,5 +1,5 @@
-server:
-  port: 8000 # 8001, 8002, 8003, ...
+# server:
+#   port: 8000 # 8001, 8002, 8003, ...
 spring:
   application:
     name: curexc
@@ -8,3 +8,10 @@ spring:
       uri: http://localhost:8888
   profiles:
     active: dev
+curexc:
+  usd:
+    cad: "1.33"
+    cny: "6.71"
+    hkd: "7.84"
+  cad:
+    cny: "5.03"
