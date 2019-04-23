@@ -280,6 +280,7 @@
         <module>confsvr</module>
         <module>limits</module>
         <module>curexc</module>
+        <module>curconv</module>
     </modules>
 
 </project>
