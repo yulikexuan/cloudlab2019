@@ -22,6 +22,7 @@ public class CurrencyConversion {
     private BigDecimal conversionMultiple;
     private BigDecimal quantity;
     private BigDecimal totalCalculatedAmount;
+    private String uri;
 
     public BigDecimal getTotalCalculatedAmount() {
         return this.conversionMultiple.multiply(this.quantity);

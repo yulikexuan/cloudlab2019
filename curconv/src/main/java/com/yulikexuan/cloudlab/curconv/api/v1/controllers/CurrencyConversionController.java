@@ -4,7 +4,6 @@
 package com.yulikexuan.cloudlab.curconv.api.v1.controllers;
 
 
-import com.yulikexuan.cloudlab.curconv.api.v1.ApiPaths;
 import com.yulikexuan.cloudlab.curconv.api.v1.mappers.ICurrencyConversionMapper;
 import com.yulikexuan.cloudlab.curconv.api.v1.model.CurrencyConversionDTO;
 import com.yulikexuan.cloudlab.curconv.domain.services.ICurrencyConversionService;
@@ -41,7 +40,8 @@ public class CurrencyConversionController {
                         quantity)
                 .map(ICurrencyConversionMapper.INSTANCE::
                         currencyConversionToCurrencyConversionDTO)
-                .orElseThrow(RuntimeException::new);
+                .orElseThrow(() -> new NotFoundException(
+                        String.format("%s to %s", from, to)));
     }
 
 }///:~
