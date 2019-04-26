@@ -12,11 +12,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 // @FeignClient(name = "conexc", url = "localhost:8001")
-@FeignClient(name = "curexc")
+// @FeignClient(name = "curexc")
+@FeignClient(name = "zuulsvr")
 @RibbonClient(name = "curexc")
 public interface IExchangeValueProxy {
 
-    @GetMapping("/api/v1/curexc/from/{from}/to/{to}")
+    // @GetMapping("/api/v1/curexc/from/{from}/to/{to}")
+    @GetMapping("/curexc/api/v1/curexc/from/{from}/to/{to}")
     CurrencyConversion getExchangeValue(
             @PathVariable("from") String from, @PathVariable("to") String to);
 
