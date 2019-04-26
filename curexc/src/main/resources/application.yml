@@ -5,3 +5,9 @@ curexc:
     hkd: "7.80"
   cad:
     cny: "5.00"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      preferIpAddress: true
