@@ -1,8 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 # Keep configuration here in case can not find config srever
 limits:
   minimum: 1

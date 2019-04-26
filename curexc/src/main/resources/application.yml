@@ -1,5 +1,7 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+curexc:
+  usd:
+    cad: "1.30"
+    cny: "6.70"
+    hkd: "7.80"
+  cad:
+    cny: "5.00"

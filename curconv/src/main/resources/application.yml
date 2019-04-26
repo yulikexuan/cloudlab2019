@@ -1,5 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+curexc:
+  ribbon:
+    listOfServers: localhost:8000
