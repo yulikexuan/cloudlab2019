@@ -246,6 +246,7 @@
         <module>limits</module>
         <module>curexc</module>
         <module>curconv</module>
+        <module>zuulsvr</module>
     </modules>
 
 </project>
