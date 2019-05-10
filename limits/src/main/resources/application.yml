@@ -5,8 +5,8 @@ limits:
 okta:
   oauth2:
     issuer: https://dev-432786.okta.com/oauth2/default
-    tokenInfoUri: https://dev-432786.okta.com/oauth2/default/v1/token
+    #tokenInfoUri: https://dev-432786.okta.com/oauth2/default/v1/token
     clientId: 0oakgiempU21VuL4C356
     clientSecret: d4BwGnIstcCbP6aSPcGAnTEluVUEWlXtIMlzfRzm
-    grantType: client_credentials
-    scope: customScope
+    #grantType: client_credentials
+    #scope: customScope
